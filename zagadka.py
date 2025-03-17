@@ -33,7 +33,7 @@ if st.session_state.show_question:
     if user_answer:
         st.session_state.user_answer = user_answer 
         if user_answer == "Рубин":
-            st.success("Правильно! Вы угадали! Вот проход в Главный зал:")
+            st.success("Правильно! Вы угадали! Вот проход в Главный зал: https://chapter-5.streamlit.app/")
             zzz = "D:/1010/Chapter_4/rubinn.jpg"
             st.image(zzz, caption='Изображение рубина, взято из открытых источников')
         else:
